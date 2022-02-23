@@ -48,6 +48,12 @@ Bellow of What we Added Recently, Add:
 ballsBalls.animation.play('play');
 ```
 
+- If You Want to Remove Your Spritesheet at Anytime, You Can Do:
+
+```haxe
+remove(ballsBalls);
+```
+
 - An Animated Sprite has All of FlxSprite Basic Variables so It's Not Necessary to Re-Add it Here (check them on AddingASprite.md File)
 
 # A Full Example of How It Can Look (In A Whole New State)

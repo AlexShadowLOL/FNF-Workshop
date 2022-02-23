@@ -119,6 +119,12 @@ iLoveTea.updateHitbox(); // since with scale, the hitbox it's not automatically 
 iLoveTea.setGraphicSize(FlxG.width, FlxG.width); // resizing it to the game screen size
 ```
 
+- If You Want to Remove Your Sprite at Anytime, You Can Do:
+
+```haxe
+remove(iLoveTea);
+```
+
 # A Full Example of How It Can Look (In A Whole New State)
 
 ```haxe
