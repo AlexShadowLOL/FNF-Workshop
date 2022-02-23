@@ -31,9 +31,9 @@ with
 
 `public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteType:String = 'normal', ?noteSkin:String = 'normal')`
 
-now Replace 
+now Replace the
 
-`frames = Paths.getSparrowAtlas` line
+`frames = Paths.getSparrowAtlas` line on the `default:` case
 
 with
 
