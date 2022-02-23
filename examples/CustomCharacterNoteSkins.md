@@ -1,4 +1,4 @@
-# Adding Opponent Note Skins (Non Pixel)
+# Adding Custom Character Note Skins (Non Pixel)
 
 ### 1. Adding & Editing Image Paths
 
