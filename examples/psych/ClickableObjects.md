@@ -36,6 +36,6 @@ Then
 ```haxe
 if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(iLoveDogs))
 {
-    FlxG.switchState(new MainMenuState());
+    MusicBeatState.switchState(new MainMenuState());
 }
 ```

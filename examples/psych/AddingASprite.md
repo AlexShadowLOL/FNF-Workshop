@@ -51,14 +51,9 @@ add(iLoveTea);
 # Basic FlxSprite Variables
 - If You Want Your Image/Sprite To Be Smoothed (Can Slightly Affect Performance) Add:
 
+**GLOBAL ANTIALIASING IS CONTROLLED ON OPTIONS**
 ```haxe
-iLoveTea.antialiasing = true;
-```
-
-if Not:
-
-```haxe
-iLoveTeam.antialiasing = false;
+iLoveTea.antialiasing = ClientPrefs.globalAntialiasing;
 ```
 
 - If You Want To Change Your Image/Sprite Opacity Add:
@@ -143,7 +138,7 @@ class MyTeaState extends MusicBeatState
 		super.create();
 
 		iLoveTea = new FlxSprite(247, 190).loadGraphic(Paths.image('miscStuff/teaCup', 'shared'));
-		iLoveTea.antialiasing = true;
+		iLoveTea.antialiasing = ClientPrefs.globalAntialiasing;
 		iLoveTea.screenCenter();
 		iLoveTea.setGraphicSize(FlxG.width, FlxG.width); // resizing it to the game screen size
 		add(iLoveTea);

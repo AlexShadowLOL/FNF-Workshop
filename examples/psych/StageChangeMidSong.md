@@ -10,7 +10,7 @@ EX:
 myimage = new FlxSprite().loadGraphic(Paths.image('myimage', 'shared'));
 myimage.setGraphicSize(Std.int(myimage.width * 1.6));
 myimage.updateHitbox();
-myimage.antialiasing = true;
+myimage.antialiasing = ClientPrefs.globalAntialiasing;
 myimage.scrollFactor.set(1, 0.9);
 add(myimage);
 
@@ -19,7 +19,7 @@ myimage2 = new FlxSprite().loadGraphic(Paths.image('myimage2', 'shared'));
 myimage2.setGraphicSize(Std.int(myimage2.width * 1.6));
 myimage2.updateHitbox();
 myimage2.visible = false;
-myimage2.antialiasing = true;
+myimage2.antialiasing = ClientPrefs.globalAntialiasing;
 myimage2.scrollFactor.set(1, 0.9);
 add(myimage2);
 ```

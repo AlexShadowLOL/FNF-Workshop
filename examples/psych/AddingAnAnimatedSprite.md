@@ -75,7 +75,7 @@ class MyTeaState extends MusicBeatState
 		ballsBalls.frames = Paths.getSparrowAtlas('deezNuts/balls', 'shared');
 		ballsBalls.animation.addByPrefix('play', 'Balls Idle', 24);
 		ballsBalls.animation.play('play');
-		ballsBalls.antialiasing = true;
+		ballsBalls.antialiasing = ClientPrefs.globalAntialiasing;
 		ballsBalls.screenCenter();
 		add(ballsBalls);
 	}
