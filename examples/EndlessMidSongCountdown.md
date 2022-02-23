@@ -1,4 +1,4 @@
-# Adding a Countdown MidSong like In Da Sonic.exe Mod
+# Adding a Countdown MidSong like In Da Sonic.exe Mod (Non-Pixel)
 
 ### 1. Edit `PlayState.hx`
 
