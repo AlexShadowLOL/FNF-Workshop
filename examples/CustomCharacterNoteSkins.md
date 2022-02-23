@@ -31,6 +31,10 @@ with
 
 `public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteType:String = 'normal', ?noteSkin:String = 'normal')`
 
+**NOTE: CHANGE IT TO THIS IF U GET A "Unknown Identifier: inCharter" ERROR WHEN COMPILING**
+
+`public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteType:String = 'normal', ?inCharter, ?noteSkin:String = 'normal')`
+
 now Replace the
 
 `frames = Paths.getSparrowAtlas` line on the `default:` case

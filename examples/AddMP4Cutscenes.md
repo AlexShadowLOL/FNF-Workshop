@@ -1,5 +1,5 @@
 # Adding MP4 Cutscenes
-**BORROWED FROM THE README LOL**
+**BORROWED FROM THE MP4 README LOL**
 
 ### 1. Download The MP4 Shit
 Download The [MP4 Support Repository](https://github.com/brightfyregit/Friday-Night-Funkin-Mp4-Video-Support)
