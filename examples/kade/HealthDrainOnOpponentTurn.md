@@ -1,4 +1,4 @@
-# How to Make the Opponent Drain Your Health if It's Their Turn (Psych)
+# How to Make the Opponent Drain Your Health if It's Their Turn (Kade)
 
 ### 1 Edit `PlayState.hx`
 
