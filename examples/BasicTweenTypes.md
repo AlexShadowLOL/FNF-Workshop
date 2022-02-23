@@ -14,7 +14,7 @@ EX:
 FlxTween.tween(mySweetTea, {alpha: 0.1}, 2);
 ``` 
 
-**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Erro When Compiling**
+**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Error When Compiling**
 
 ### Tweening an Object's Position
 
@@ -30,7 +30,7 @@ EX:
 FlxTween.tween(mySweetTea, {x: 300, y: -200}, 2);
 ``` 
 
-**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Erro When Compiling**
+**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Error When Compiling**
 
 ### Tweening an Object's Angle
 
@@ -46,7 +46,7 @@ EX:
 FlxTween.tween(mySweetTea, {FromAngle: 180, ToAngle: 90}, 2);
 ``` 
 
-**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Erro When Compiling**
+**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Error When Compiling**
 
 ### Tweening an Object's Color
 
@@ -68,4 +68,4 @@ FlxTween.tween(mySweetTea, 2, FromColor:0x000000, ToColor:0xFFFFFF);
 FlxTween.tween(mySweetTea, 2, FromColor:FlxColor.fromRBG(255, 255, 255), ToColor:FlxColor.fromRBG(0, 255, 0));
 ``` 
 
-**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Erro When Compiling**
+**Warning: The Sprite Variable Should be Set at The Top of The State or else It Will Give You an "Unknown Identifier" Error When Compiling**
