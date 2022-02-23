@@ -10,17 +10,14 @@ if (curSong.toLowerCase() == 'your-song-name-in-lowercase')
 	switch (curStep)
 	{
 		case 100:
-			FlxG.sound.play(Paths.sound('intro3' + altSuffix), 0.6);
+			FlxG.sound.play(Paths.sound('intro3', 'shared'), 0.6);
 		case 104:
 			var ready:FlxSprite = new FlxSprite().loadGraphic(Paths.image('ready', 'shared'));
 			ready.scrollFactor.set();
 			ready.updateHitbox();
-
-			if (curStage.startsWith('school'))
-				ready.setGraphicSize(Std.int(ready.width * daPixelZoom));
-
 			ready.screenCenter();
 			add(ready);
+
 			FlxTween.tween(ready, {y: ready.y += 100, alpha: 0}, Conductor.crochet / 1000, {
 			ease: FlxEase.cubeInOut,
 			onComplete: function(twn:FlxTween)
@@ -28,16 +25,13 @@ if (curSong.toLowerCase() == 'your-song-name-in-lowercase')
 			        ready.destroy();
 			    }
 	        });
-		    FlxG.sound.play(Paths.sound('intro2' + altSuffix), 0.6);
+		    FlxG.sound.play(Paths.sound('intro2', 'shared'), 0.6);
 	    case 108:
 		    var set:FlxSprite = new FlxSprite().loadGraphic(Paths.image('set', 'shared'));
 		    set.scrollFactor.set();
-
-		    if (curStage.startsWith('school'))
-			    set.setGraphicSize(Std.int(set.width * daPixelZoom));
-
 		    set.screenCenter();
 		    add(set);
+
 		    FlxTween.tween(set, {y: set.y += 100, alpha: 0}, Conductor.crochet / 1000, {
 			    ease: FlxEase.cubeInOut,
 			    onComplete: function(twn:FlxTween)
@@ -45,7 +39,7 @@ if (curSong.toLowerCase() == 'your-song-name-in-lowercase')
 				    set.destroy();
 			    }
 		    });
-		    FlxG.sound.play(Paths.sound('intro1' + altSuffix), 0.6);
+		    FlxG.sound.play(Paths.sound('intro1', 'shared'), 0.6);
 	    case 112:
 		    var go:FlxSprite = new FlxSprite().loadGraphic(Paths.image('go', 'shared'));
 		    go.scrollFactor.set();
@@ -61,7 +55,7 @@ if (curSong.toLowerCase() == 'your-song-name-in-lowercase')
 		        }		
             });
 
-		    FlxG.sound.play(Paths.sound('introGo' + altSuffix), 0.6);
+		    FlxG.sound.play(Paths.sound('introGo', 'shared'), 0.6);
 	}
 }
 ```
