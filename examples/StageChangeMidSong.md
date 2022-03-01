@@ -8,7 +8,7 @@ EX:
 ```haxe
 // current stage
 myimage = new FlxSprite().loadGraphic(Paths.image('myimage', 'shared'));
-myimage.setGraphicSize(Std.int(oldLackBg.width * 1.6));
+myimage.setGraphicSize(Std.int(myimage.width * 1.6));
 myimage.updateHitbox();
 myimage.antialiasing = true;
 myimage.scrollFactor.set(1, 0.9);
