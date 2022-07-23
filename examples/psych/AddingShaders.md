@@ -8,7 +8,7 @@ Below `package;` add:
 ```haxe
 import Shaders;
 ```
-after that go in the section with the other variables and initialize the shader variable (in this case we will eb adding the chromatic aberration shader)
+after that go in the section with the other variables and initialize the shader variable (in this case we will be adding the chromatic aberration shader)
 
 ```haxe
 var chromAberration:ChromaticAberrationEffect = new ChromaticAberrationEffect();
